@@ -2,7 +2,7 @@ import "./App.css";
 //import image from "../assets/images/pharmacy-otc-products-turkey-64209774.jpg";
 //import Products from "./products";
 import Header from "./components/Home";
-import Body from "./components/MedsList";
+import ProductsList from "./components/ProductsList";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
 
       <br />
 
-      <Body />
+      <ProductsList />
     </>
   );
 }
