@@ -6,7 +6,7 @@ const ProductsList = () =>
       <div className="App">
         <div>{product.Name}</div>
         <div>{product.Price}</div>
-        <img src={product.image} height="300px" />
+        <img src={product.image} />
       </div>
     );
   });
